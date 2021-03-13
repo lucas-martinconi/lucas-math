@@ -6,20 +6,39 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_acasa"
         android:name="ro.lucas.matematica.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/menu_acasa"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_exerseaza"
         android:name="ro.lucas.matematica.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_exerseaza"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_concurs"
         android:name="ro.lucas.matematica.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_concurs"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_probleme"
+        android:name="ro.lucas.matematica.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_probleme"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_clasament"
+        android:name="ro.lucas.matematica.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_clasament"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_despre"
+        android:name="ro.lucas.matematica.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_despre"
+        tools:layout="@layout/fragment_slideshow" />
+
 </navigation>
