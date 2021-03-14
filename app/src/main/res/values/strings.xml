@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">matematica</string>
+    <string name="app_name">Lucas Math</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">LucasMath</string>
+    <string name="nav_header_title">Lucas Math</string>
     <string name="nav_header_subtitle">github.com/lucas-martinconi/lucas-math</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Setari</string>
