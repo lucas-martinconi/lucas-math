@@ -1,16 +1,16 @@
-package ro.lucas.matematica.ui.home;
+package ro.lucas.matematica.ui.clasament;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class ClasamentViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public ClasamentViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Ecran Acasa");
+        mText.setValue("Ecran Clasament");
     }
 
     public LiveData<String> getText() {

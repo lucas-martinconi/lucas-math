@@ -1,16 +1,16 @@
-package ro.lucas.matematica.ui.home;
+package ro.lucas.matematica.ui.concurs;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class ConcursViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public ConcursViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Ecran Acasa");
+        mText.setValue("Ecran concurs");
     }
 
     public LiveData<String> getText() {

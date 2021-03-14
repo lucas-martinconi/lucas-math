@@ -1,4 +1,4 @@
-package ro.lucas.matematica.ui.gallery;
+package ro.lucas.matematica.ui.exerseaza;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProvider;
 
 import ro.lucas.matematica.R;
 
-public class GalleryFragment extends Fragment {
+public class ExerseazaFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
+    private ExerseazaViewModel exerseazaViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        exerseazaViewModel =
+                new ViewModelProvider(this).get(ExerseazaViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_exerseaza, container, false);
+        final TextView textView = root.findViewById(R.id.text_exerseaza);
+        exerseazaViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

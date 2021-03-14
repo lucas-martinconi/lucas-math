@@ -1,16 +1,16 @@
-package ro.lucas.matematica.ui.slideshow;
+package ro.lucas.matematica.ui.probleme;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
+public class ProblemeViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public ProblemeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("Ecran Probleme");
     }
 
     public LiveData<String> getText() {

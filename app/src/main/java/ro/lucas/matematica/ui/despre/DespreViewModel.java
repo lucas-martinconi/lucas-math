@@ -1,16 +1,16 @@
-package ro.lucas.matematica.ui.gallery;
+package ro.lucas.matematica.ui.despre;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class DespreViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public DespreViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("Ecran Despre");
     }
 
     public LiveData<String> getText() {
